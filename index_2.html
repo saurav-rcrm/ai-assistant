@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruit CRM Feedback Assistant</title>
+  <style>
+    /* Minimal styling for a clean page */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #1170CA, #89CFF0);
+      font-family: Arial, sans-serif;
+    }
+
+    /* Chat Container */
+    #chat-container {
+      width: 100%;
+      max-width: 600px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Section */
+    #header {
+      padding: 20px;
+      background-color: #1170CA;
+      color: white;
+      text-align: center;
+    }
+
+    #header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    #header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+    }
+
+    /* Webchat Section */
+    #webchat {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="chat-container">
+    <!-- Header Section -->
+    <div id="header">
+      <h1>Recruit CRM Feedback AI Assistant</h1>
+      <p>Built by <b>Saurav,</b> here to assist you with customer feedback.</p>
+      <br>
+      <p>Click the chatbot below to get started :)</p>
+    </div>
+
+    <!-- Webchat Section -->
+    <div id="webchat">
+      <!-- Your Botpress Webchat code -->
+      <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+      <script src="https://mediafiles.botpress.cloud/dc765537-d893-48c1-ae0d-1d7240bfccd1/webchat/v2.1/config.js"></script>
+    </div>
+  </div>
+
+</body>
+</html>
